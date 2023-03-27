@@ -1,0 +1,127 @@
+*{ 
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+
+body {
+    background-color: #61122f;
+}
+
+
+nav {
+    background-color: #f6b319;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .logo {
+    display: flex;
+}
+
+nav .logo{
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 20px;
+    margin-bottom: 3px;
+    
+}
+
+nav .number {
+    margin-right: 90px;
+}
+
+div #number {
+    font-size: 30px;
+    color: #61122f;
+    text-shadow: none;
+}
+
+nav a {
+    margin-left: 10px;
+    color: #557c3e;
+    text-shadow: black 2px 1px;
+    
+    
+}
+
+nav #cert {
+    margin-left: 11px;
+    font-size: 15px;
+    color: black;
+    
+    
+}
+div #deliver {
+    float: right;
+    color: #557c3e;
+}
+
+
+
+.container {
+    text-align: center;
+    color: white;
+    font-family: system-ui;
+    margin: 10px;
+}
+
+
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.categories p {
+    font-size: 20px;
+    color: white;
+}
+
+
+.categories span {
+    color: black;
+}
+
+
+
+section {
+    background-color: rgb(26, 26, 26);
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-family: system-ui;
+}
+
+section div {
+    font-size: 16px;
+}
+
+section #hour {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+section #address {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+section span {
+    color: rgb(0, 75, 0);
+    font-size: 15px;
+}
+
+
+#loader {
+    text-align: center;
+}
